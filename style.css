@@ -1,0 +1,11 @@
+#container {
+    display: flexbox;
+    column-count: 16;
+    column-gap: 2px;
+    row-gap: 2px;
+    color: white;
+}
+.cell:hover{
+    color: blue;
+    background-color: blue;
+}
