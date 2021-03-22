@@ -1,11 +1,27 @@
 #container {
     display: flexbox;
+    min-height: 500px;
+    max-height: 500px;
+    min-width: 500px;
+    max-width: 500px;
     column-count: 16;
-    column-gap: 2px;
-    row-gap: 2px;
+    column-gap: 0px;
+    row-gap: 0px;
     color: white;
+    background-color: black;
+}
+
+.cell{
+    height: auto;
+    width: auto;
 }
 .cell:hover{
+    size: inherit;
     color: blue;
     background-color: blue;
+}
+
+#btn{
+    margin: 0 auto;
+    display: block;
 }
