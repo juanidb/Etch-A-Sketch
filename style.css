@@ -1,22 +1,20 @@
 #container {
-    display: flexbox;
-    min-height: 500px;
-    max-height: 500px;
-    min-width: 500px;
-    max-width: 500px;
-    column-count: 16;
-    column-gap: 0px;
-    row-gap: 0px;
-    color: white;
-    background-color: black;
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 575px;
+  width: 575px;
 }
 
 .cell{
-    height: auto;
-    width: auto;
+    display: flex;
+    
 }
 .cell:hover{
-    size: inherit;
     color: blue;
     background-color: blue;
 }
