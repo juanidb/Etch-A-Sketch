@@ -1,6 +1,9 @@
+body{
+  text-align: center;
+}
+
 #container {
   display: inline-grid;
-  
   grid-template-columns: repeat(16, 2fr);
   grid-template-rows: repeat(16, 2fr);
   border: 5px solid black;
