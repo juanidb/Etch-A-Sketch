@@ -15,7 +15,6 @@ function newGrid(x){
                     brightness = 0;
                 }
                 let color = `rgb(${(Math.random()*255).toFixed()},${(Math.random()*255).toFixed()},${(Math.random()*255).toFixed()})`
-                console.log(color)
                 gridEle.style.setProperty(
                     'background-color',
                     `${color}`
